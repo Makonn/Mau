@@ -1,0 +1,73 @@
+/* Navbar component rules */
+
+.container {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navbar {
+  border: none;
+  padding: none;
+  margin: none;
+  background-color: transparent;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-size: 30px;
+  font-family: 'Monoton', cursive;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+/* unvisited link */
+.nav-link:link {
+   color: white;
+}
+
+/* visited link */
+.nav-link:visited {
+   color: white;
+}
+
+.navbar .navbar-right {
+  font-size: 30px;
+  font-family: 'Jockey one', cursive;
+  text-align: center;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+#color {
+  margin-left: 3vw;
+  color: white;
+}
+
+#colorLast {
+  margin-left: 3vw;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: black;
+    filter: opacity(.8);
+    border-radius: 25px;
+  }
+
+  .nav > li {
+    margin-top: 5%;
+  }
+
+  #colorLast {
+    margin-bottom: 5%;
+  }
+}
+
+/* END of Navbar component rules */

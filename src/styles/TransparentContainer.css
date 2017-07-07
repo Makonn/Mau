@@ -1,0 +1,79 @@
+/* Intro component rules */
+
+.App-intro {
+  margin-left: 10%;
+}
+
+#MauContainer {
+  padding: 0;
+  color: white;
+  height: 100vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  filter: opacity(.7);
+}
+
+#MauContainer:active #Mau {
+  color: #373737;
+}
+
+#MauContainer:active #MauText {
+  color: #373737;
+}
+
+#TextContainer {
+  width: 100%;
+}
+
+#Mau {
+  font-family: 'Monoton', cursive;
+  font-size: 13vw;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#MauText {
+  font-family: 'Jockey one', cursive;
+  font-size: 4.6vw;
+  margin-top: 0;
+  padding: 0;
+  padding-left: 0.45%;
+  line-height: 1;
+}
+
+
+/* END of Intro component rules */
+
+@media (max-width: 1365px) {
+
+  #MauContainer:active {
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  #TextContainer {
+    text-align: center;
+  }
+
+  #Mau {
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+  }
+
+  #MauText {
+    font-family: 'Jockey one', cursive;
+    font-size: 35px;
+    margin-top: 0;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+  }
+}

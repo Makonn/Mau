@@ -1,0 +1,85 @@
+/* Outro component rules */
+
+#MauContainerContact {
+  padding: 0;
+  text-align: left;
+  color: white;
+  min-height: 100vh;
+  border: none;
+  display: flex;
+  background-color: #233237;
+  min-height: 100vh;
+}
+
+#TextContainerContact {
+  margin-left: 10%;
+}
+
+#Contact {
+  margin-top: 100px;
+  margin-bottom: 5%;
+  font-size: 150px;
+  font-family: 'Jockey one', cursive;
+}
+
+#ContactInfo {
+  margin-bottom: 30px;
+  margin-left: 30%;
+  font-family: 'Jockey one', cursive;
+  font-size: 75px;
+}
+
+#ConctactInfoReal {
+  margin-bottom: 30px;
+  margin-left: 30%;
+  font-size: 45px;
+  font-family: 'Raleway';
+}
+
+
+
+@media (max-width: 1365px) {
+
+  #TextContainerContact {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  #Contact {
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 100px;
+  }
+
+  #ContactInfo {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  #ConctactInfoReal {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #Contact {
+    font-size: 70px;
+  }
+
+  #ContactInfo {
+    font-size: 45px;
+  }
+
+  #ConctactInfoReal {
+    font-size: 25px;
+  }
+
+}
+
+/* END of Outro component rules */
