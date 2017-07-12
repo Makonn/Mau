@@ -18,7 +18,7 @@ class Outro extends Component {
 
           {/* Animation for email */}
           <Reveal effect="animated fadeInUp">
-            <h1 className ="App-outro" id="ConctactInfoReal">petja.makkonen@hotmail.com</h1>
+            <h1 className ="App-outro" id="ConctactInfoReal">petjamakkonen@maudesigns.fi</h1>
           </Reveal>
 
           <p className ="App-outro" id="ContactInfo">Puhelinnumero:</p>

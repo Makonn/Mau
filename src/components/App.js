@@ -31,9 +31,10 @@ class App extends Component {
         {/* Services */}
         <AnotherIntroText/>
 
-          <Picture>
-            <div className="container-fluid" id="pictureContainerLens"></div>
-          </Picture>
+        {/* Parallax picture */}
+        <Picture>
+          <div className="container-fluid" id="pictureContainerLens"></div>
+        </Picture>
 
         {/* Contact */}
         <Outro/>

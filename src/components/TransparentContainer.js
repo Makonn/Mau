@@ -20,6 +20,8 @@ class StartBackground extends Component {
   /* Set timeout to break video after 5 minutes */
   componentDidMount() {
     this.timeout = setTimeout(function() { this.setState({videoPlaying: false}); }.bind(this), 300000);
+    var oskari = window.innerWidth;
+    console.log(oskari);
   }
 
   /* Click on the screen to cut video and refresh timeout  */
@@ -27,19 +29,32 @@ class StartBackground extends Component {
     this.setState({videoPlaying: !this.state.videoPlaying})
     clearTimeout(this.timeout);
     this.timeout = setTimeout(function() { this.setState({videoPlaying: false}); }.bind(this), 300000);
+
   }
 
 
   render() {
 
-    let {videoPlaying} = this.state;
+    if(window.innerWidth > 1365){
 
-    return(
-      <div>
-        <TransparentContainer videoPlaying={videoPlaying} togglePlay={this.togglePlay} />
-        <BackgroundVideo videoPlaying={videoPlaying} />
-      </div>
-    )
+      let {videoPlaying} = this.state;
+
+      return(
+        <div>
+          <TransparentContainer videoPlaying={videoPlaying} togglePlay={this.togglePlay} />
+          <BackgroundVideo videoPlaying={videoPlaying} />
+        </div>
+      )
+    }
+
+    else {
+      return(
+        <div>
+          <TransparentContainer />
+          <BackgroundVideo />
+        </div>
+      )
+    }
   }
 }
 

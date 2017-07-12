@@ -31,7 +31,7 @@ class AnotherIntroText extends Component {
           <Reveal effect="animated fadeInRight">
             <div className="DesignText">
               <h1>Suunnittelu</h1>
-                Mau suunnittelee verkkosivut sinun tarpeidesi mukaan. Suunnittelemme moderneja verkkosivuja jotka heijastavat sinun tai yrityksesi ilmettä. Suunnittelussa kiinnitetään huomiota sivuston ulkonäköön ja käytettävyyteen. Paikan päällä otetut  hyvälaatuiset valokuvat sivuillasi kiinnittävät potentiaalisten asiakaidesi huomion jo heidän saapuessaan sivuillesi.
+                Mau suunnittelee verkkosivut sinun tarpeidesi mukaan. Suunnittelen moderneja verkkosivuja jotka heijastavat sinun tai yrityksesi ilmettä. Suunnittelussa kiinnitetään huomiota sivuston ulkonäköön ja käytettävyyteen. Paikan päällä otetut hyvälaatuiset valokuvat kiinnittävät potentiaalisten asiakaidesi huomion jo heidän saapuessaan sivuillesi.
             </div>
           </Reveal>
 

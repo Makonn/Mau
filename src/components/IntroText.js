@@ -13,11 +13,13 @@ class IntroText extends Component {
     return(
       <div className="container-fluid" id ="IntroTextContainer">
 
+        {/* Animation for introduction text */}
         <Reveal effect="animated fadeInUp">
           <h1 id="introTextHeader">Mau</h1>
+        </Reveal>
 
-          {/* Animation for introduction text */}
-          <p className ="IntroText">Mau Designs & Software erikoistuu pienyrittäjien ja yksityishenkilöiden verkkosivujen toteutukseen.<br></br><br></br>Tarvitseeko yrityksesi tai vaikka bändisi verkkosivuja? haluaisitko oman portfoliosi kaikkien nähtäville tai onko yrityksesi verkkosivut jääneet viime vuosikymmenelle? Mau suunnittelee ja toteuttaa pienimuotoiset verkkosivut jokaisen lompakolle sopivaan hintaan.<br></br><br></br>Hintaan kuuluu valokuvaus paikan päällä, verkkosivujen suunnittelu ja toteutus sekä sivujen julkaisu. Ota yhteyttä niin jutellaan lisää.
+        <Reveal effect="animated fadeInUp">
+          <p className ="IntroText">Mau Designs & Software erikoistuu pienyrittäjien ja yksityishenkilöiden verkkosivujen toteutukseen.<br></br><br></br>Tarvitseeko yrityksesi tai vaikka bändisi verkkosivuja? Haluaisitko oman portfoliosi kaikkien nähtäville tai onko yrityksesi verkkosivut jääneet viime vuosikymmenelle? Mau suunnittelee ja toteuttaa pienimuotoiset verkkosivut jokaisen lompakolle sopivaan hintaan.<br></br><br></br>Hintaan kuuluu valokuvaus paikan päällä, verkkosivujen suunnittelu ja toteutus sekä sivujen julkaisu. Ota yhteyttä niin jutellaan lisää.
           </p>
         </Reveal>
 
